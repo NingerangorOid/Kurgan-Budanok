@@ -4,7 +4,7 @@ import pygame
 pygame.init()
 size = 1000, 700
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption('Чёрное в белое и наоборот')
+pygame.display.set_caption('Чtрное в белое и наоборот')
 clock = pygame.time.Clock()
 
 
@@ -15,7 +15,7 @@ class Board:
         self.board = [[1] * width for _ in range(height)]
         self.left = 10
         self.top = 10
-        self.cell_size = 3
+        self.cell_size = 30
 
     def render(self):
         for y in range(self.height):
