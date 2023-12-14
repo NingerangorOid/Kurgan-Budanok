@@ -15,7 +15,7 @@ class Board:
         self.board = [[1] * width for _ in range(height)]
         self.left = 10
         self.top = 10
-        self.cell_size = 30
+        self.cell_size = 3
 
     def render(self):
         for y in range(self.height):
